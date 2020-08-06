@@ -1,0 +1,41 @@
+﻿<html>
+	<head>
+		<title>Royal Games</title>
+		<link href="favicon.ico" rel="shortcut icon"></link>
+		<script src="javascripts/jquery-1.js"></script>
+		<script src="javascripts/jquery-migrate-1.js"></script>
+		<link rel="stylesheet" href="stylesheets/bootstrap.css"></link>
+		<link rel="stylesheet" href="stylesheets/bootstrap-theme.css"></link>
+		<script src="javascripts/bootstrap.min.js"></script>
+		<link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic" rel="stylesheet" type="text/css"></link>
+		<link href="stylesheets/royalgames.css" rel="stylesheet"></link>
+	</head>
+	<body>
+		<div class="container">
+			<p>
+				Boh. Non sapevo cosa fare quindi ho scritto questa guida.
+			</p>
+			<p>
+				Come aprire un <b>listen server</b> di <i>Counter-Strike: Global Offensive</i>:
+			</p>
+			<ol>
+				<li>Avvia CSGO <a href="steam://run/730/-console%20+con_enable%201">con la console abilitata</a>.
+				<li>Clicca <b>GIOCA CON GLI AMICI</b> nel menù <b>GIOCA</b>.
+				<li>Nelle impostazioni della partita metti una mappa <b>Demolizione</b> e assicurati che la privacy sia in <b>Partita privata</b>.
+				<li><b>Invita gli amici</b> che vuoi che si connettano al server.
+				<li>Appena tutti sono connessi, <b>avvia la partita</b>
+				<li><b>Aspetta</b> che tutti entrino nella partita demolizione.
+				<li>Apri la console con il tasto <kbd>\</kbd>.
+				<li>Cambia modalità di gioco scrivendo <code>game_type <abbr title="0 per modalità arcade (corsa alle armi, deathmatch, demolizione), 1 per modalità classiche (leggera, competitiva)">type</abbr></code> e <code>game_mode <abbr title="Arcade: 0 per corsa alle armi, 1 per deathmatch, 2 per demolizione | Classiche: 0 per leggera, 1 per competitiva">mode</abbr></code>
+				<li>Scrivi nella console <code>changelevel <abbr title="Scrivi maps * nella console per vedere le mappe disponibili.">mapname</abbr></code> per cambiare mappa con le impostazioni selezionate sopra.
+			</ol>
+			<p>
+				Altri comandi da inserire in console per modificare la partita:
+				<ul>
+					<li><code>mp_autokick 0</code>: Disattiva espulsione automatica per il teamkill e l'idling.
+					<li><code>mp_autoteambalance 0</code> e <code>mp_limitteams 0</code>: Disattiva il bilanciamento automatico delle squadre, permettendo partite con più giocatori in una squadra che nell'altra.
+				</ul>
+			</p>
+		</div>
+	</body>
+</html>
